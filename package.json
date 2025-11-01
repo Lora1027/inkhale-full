@@ -1,4 +1,8 @@
 // ---------------------------------------------------------------------------------
+// FILE: .env.example  (Copy to .env.local locally, and set in Vercel Project → Settings → Env Vars)
+// ---------------------------------------------------------------------------------
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=// ---------------------------------------------------------------------------------
 // FILE: schema.sql  (Run in Supabase SQL editor)
 // ---------------------------------------------------------------------------------
 -- Auth is managed by Supabase automatically (auth.users table)
